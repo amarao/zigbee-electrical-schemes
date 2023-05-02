@@ -1,0 +1,977 @@
+<project version="0.90" title="simple relay">
+    <properties>
+        <property show="1" name="saveddate">5/2/23</property>
+        <property show="1" name="saveddate-eu">02-05-2023</property>
+        <property show="1" name="savedfilename">simple relay</property>
+        <property show="1" name="savedtime">17:27</property>
+        <property show="1" name="savedfilepath">/home/amarao/household/electric/simple relay.qet</property>
+        <property show="1" name="saveddate-us">2023-05-02</property>
+    </properties>
+    <newdiagrams>
+        <border displaycols="true" displayrows="true" rows="8" rowsize="80" cols="17" colsize="60"/>
+        <inset version="" title="" auto_page_num="" indexrev="" locmach="" plant="" author="" folio="%id/%total" date="null" displayAt="bottom" filename=""/>
+        <conductors onetextperfolio="0" function="" tension_protocol="" horizrotatetext="0" color2="#000000" type="multi" conductor_color="" bus="" dash-size="1" num="_" displaytext="1" bicolor="false" numsize="7" cable="" conductor_section="" vertirotatetext="270" condsize="1" formula="" horizontal-alignment="AlignBottom" text_color="#000000" vertical-alignment="AlignRight"/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref xrefpos="" slave_label="(%f-%l%c)" showpowerctc="true" powerprefix="" delayprefix="" displayhas="cross" snapto="label" master_label="%f-%l%c" switchprefix="" type="commutator" offset="0"/>
+            <xref xrefpos="" slave_label="(%f-%l%c)" showpowerctc="true" powerprefix="" delayprefix="" displayhas="cross" snapto="label" master_label="%f-%l%c" switchprefix="" type="coil" offset="0"/>
+            <xref xrefpos="" slave_label="(%f-%l%c)" showpowerctc="true" powerprefix="" delayprefix="" displayhas="cross" snapto="label" master_label="%f-%l%c" switchprefix="" type="protection" offset="0"/>
+        </xrefs>
+        <conductors_autonums current_autonum="" freeze_new_conductors="false"/>
+        <folio_autonums/>
+        <element_autonums current_autonum="" freeze_new_elements="false"/>
+    </newdiagrams>
+    <diagram cols="17" colsize="60" rowsize="80" auto_page_num="" indexrev="" order="1" locmach="" title="" filename="" displayrows="true" displaycols="true" rows="8" freezeNewConductor="false" freezeNewElement="false" folio="%id/%total" plant="" date="null" version="0.90" height="660" author="" displayAt="bottom">
+        <defaultconductor onetextperfolio="0" function="" tension_protocol="" horizrotatetext="0" color2="#000000" type="multi" conductor_color="" bus="" dash-size="1" num="_" displaytext="1" bicolor="false" numsize="7" cable="" vertirotatetext="270" conductor_section="" condsize="1" formula="" horizontal-alignment="AlignBottom" text_color="#000000" vertical-alignment="AlignRight"/>
+        <elements>
+            <element uuid="{6ecba384-6a6c-4b96-9930-1e71d9a1f70f}" y="190" prefix="X" freezeLabel="false" z="10" type="embed://import/10_electric/10_allpole/130_terminals_terminal_strips/borne_finale.elmt" x="360" orientation="2">
+                <terminals>
+                    <terminal y="-6" id="0" x="0" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_type="generic" terminal_function="generic" terminal_led="false"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_width="-1" uuid="{ea75bd5a-4e35-4469-8ccb-eccb87e86988}" Halignment="AlignLeft" y="0" font="Sans Serif,10,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop" keep_visual_rotation="true" rotation="180" text_from="ElementInfo" x="10" frame="false">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{53cd616e-ffb9-43d5-9832-740dad8ab922}" y="190" prefix="X" freezeLabel="false" z="10" type="embed://import/10_electric/10_allpole/130_terminals_terminal_strips/borne_finale.elmt" x="330" orientation="2">
+                <terminals>
+                    <terminal y="-6" id="1" x="0" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_type="generic" terminal_function="generic" terminal_led="false"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_width="-1" uuid="{6fe871aa-3d3d-422b-bdc0-99cf4ada9822}" Halignment="AlignLeft" y="-2.5" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop" keep_visual_rotation="true" rotation="180" text_from="UserText" x="5" frame="false">
+                        <text></text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{6b47551c-5593-45b5-96f7-2c0801114226}" y="190" prefix="X" freezeLabel="false" z="10" type="embed://import/10_electric/10_allpole/130_terminals_terminal_strips/borne_finale.elmt" x="440" orientation="2">
+                <terminals>
+                    <terminal y="-6" id="2" x="0" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_type="generic" terminal_function="generic" terminal_led="false"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_width="-1" uuid="{bee49f02-2fc8-4dc7-8ba1-c654473ad712}" Halignment="AlignLeft" y="-18" font="Sans Serif,10,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop" keep_visual_rotation="true" rotation="180" text_from="ElementInfo" x="5" frame="false">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{a34ec9f7-16e8-497d-b9cc-2a24a0239a90}" y="190" prefix="X" freezeLabel="false" z="10" type="embed://import/10_electric/10_allpole/130_terminals_terminal_strips/borne_finale.elmt" x="480" orientation="2">
+                <terminals>
+                    <terminal y="-6" id="3" x="0" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_type="generic" terminal_function="generic" terminal_led="false"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_width="-1" uuid="{91869a3a-f3c7-413a-a198-8ea25dd5310c}" Halignment="AlignLeft" y="-18" font="Sans Serif,10,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop" keep_visual_rotation="true" rotation="180" text_from="ElementInfo" x="5" frame="false">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text text_width="-1" uuid="{6fe871aa-3d3d-422b-bdc0-99cf4ada9822}" Halignment="AlignLeft" y="-2.5" font="Sans Serif,7,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop" keep_visual_rotation="true" rotation="180" text_from="UserText" x="5" frame="false">
+                        <text></text>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{016ec667-693e-4381-a401-1fff3f32396b}" y="230" prefix="" freezeLabel="false" z="10" type="embed://import/10_electric/91_en_60617/en_60617_07/en_60617_07_02/en_60617_07_02_02.elmt" x="390" orientation="1">
+                <terminals>
+                    <terminal y="-36" id="4" x="0" orientation="0"/>
+                    <terminal y="16" id="5" x="0" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_width="-1" uuid="{b93725e6-bfa4-411c-ad26-59c67e91bf54}" Halignment="AlignLeft" y="12.5" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" Valignment="AlignTop" keep_visual_rotation="true" rotation="270" text_from="ElementInfo" x="5" frame="false">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element uuid="{5338ae6f-8291-4faa-b2c0-906e0e4d3fcc}" y="260" prefix="X" freezeLabel="false" z="10" type="embed://import/10_electric/10_allpole/130_terminals_terminal_strips/borne_finale.elmt" x="240" orientation="1">
+                <terminals>
+                    <terminal y="-6" id="6" x="0" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_type="generic" terminal_function="generic" terminal_led="false"/>
+                </properties>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element uuid="{08b6f1a7-e1a0-4370-969f-1c850684494f}" y="210" prefix="X" freezeLabel="false" z="10" type="embed://import/10_electric/10_allpole/130_terminals_terminal_strips/borne_finale.elmt" x="240" orientation="1">
+                <terminals>
+                    <terminal y="-6" id="7" x="0" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                    <elementInformation show="1" name="comment"></elementInformation>
+                    <elementInformation show="1" name="location"></elementInformation>
+                    <elementInformation show="1" name="label"></elementInformation>
+                </elementInformations>
+                <properties>
+                    <element_type terminal_type="generic" terminal_function="generic" terminal_led="false"/>
+                </properties>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element uuid="{b3068c49-442c-45c8-a5f0-4e000f338e36}" y="230" prefix="V" freezeLabel="false" z="10" type="embed://import/10_electric/10_allpole/395_electronics_semiconductors/11_diodes/diode_led.elmt" x="480" orientation="2">
+                <terminals>
+                    <terminal y="-16" id="8" x="0" orientation="0"/>
+                    <terminal y="16" id="9" x="0" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation show="1" name="formula"></elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text text_width="-1" uuid="{82cdb572-dc71-4dc3-8126-9048c8228c3e}" Halignment="AlignLeft" y="-8.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" keep_visual_rotation="false" rotation="0" text_from="ElementInfo" x="7.75" frame="false">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+        </elements>
+        <conductors>
+            <conductor onetextperfolio="0" function="" y="0" freezeLabel="false" tension_protocol="" horizrotatetext="0" color2="#000000" type="multi" x="0" terminal2="4" conductor_color="" bus="" dash-size="1" num="" displaytext="1" bicolor="false" numsize="7" cable="" conductor_section="" vertirotatetext="270" condsize="1" terminal1="2" formula="" horizontal-alignment="AlignBottom" text_color="#000000" vertical-alignment="AlignRight">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor onetextperfolio="0" function="" y="0" freezeLabel="false" tension_protocol="" element2="{b3068c49-442c-45c8-a5f0-4e000f338e36}" horizrotatetext="0" color2="#000000" type="multi" x="0" terminal2="{d880aca9-66ae-421f-bd1c-ddd0e173919d}" conductor_color="" bus="" dash-size="1" num="" displaytext="1" bicolor="false" numsize="7" cable="" conductor_section="" vertirotatetext="270" condsize="1" terminal1="3" formula="" horizontal-alignment="AlignBottom" text_color="#000000" vertical-alignment="AlignRight">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor onetextperfolio="0" function="" y="0" freezeLabel="false" tension_protocol="" element1="{b3068c49-442c-45c8-a5f0-4e000f338e36}" horizrotatetext="0" color2="#000000" type="multi" x="0" terminal2="6" conductor_color="" bus="" dash-size="1" num="" displaytext="1" bicolor="false" numsize="7" cable="" userx="360" usery="260" conductor_section="" vertirotatetext="270" condsize="1" terminal1="{5601f93a-1778-45a8-9322-55fc3c5c4e6c}" formula="" horizontal-alignment="AlignBottom" text_color="#000000" vertical-alignment="AlignRight">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor onetextperfolio="0" function="" y="0" freezeLabel="false" tension_protocol="" horizrotatetext="0" color2="#000000" type="multi" x="0" terminal2="1" conductor_color="" bus="" dash-size="1" num="" displaytext="1" bicolor="false" numsize="7" cable="" conductor_section="" vertirotatetext="270" condsize="1" terminal1="7" formula="" horizontal-alignment="AlignBottom" text_color="#000000" vertical-alignment="AlignRight">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor onetextperfolio="0" function="" y="0" freezeLabel="false" tension_protocol="" horizrotatetext="0" color2="#000000" type="multi" x="0" terminal2="5" conductor_color="" bus="" dash-size="1" num="" displaytext="1" bicolor="false" numsize="7" cable="" conductor_section="" vertirotatetext="270" condsize="1" terminal1="0" formula="" horizontal-alignment="AlignBottom" text_color="#000000" vertical-alignment="AlignRight">
+                <sequentialNumbers/>
+            </conductor>
+        </conductors>
+        <inputs>
+            <input y="160" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>L-in&lt;/p>&lt;/body>&lt;/html>" rotation="0" x="310"/>
+            <input y="160" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>L-out&lt;/p>&lt;/body>&lt;/html>" rotation="0" x="470"/>
+            <input y="200" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>L&lt;/p>&lt;/body>&lt;/html>" rotation="0" x="210"/>
+            <input y="240" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>N&lt;/p>&lt;/body>&lt;/html>" rotation="0" x="210"/>
+            <input y="160" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>S1&lt;/p>&lt;/body>&lt;/html>" rotation="0" x="350"/>
+            <input y="160" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:0; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>S2&lt;/p>&lt;/body>&lt;/html>" rotation="0" x="430"/>
+        </inputs>
+        <shapes>
+            <shape x2="510" ry="0" rx="0" z="0" type="Rectangle" is_movable="1" closed="0" x1="300" y1="70" y2="190">
+                <pen widthF="1" color="#000000" style="SolidLine"/>
+                <brush color="#000000" style="NoBrush"/>
+            </shape>
+        </shapes>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="fr">Éléments importés</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="uk">Імпортовані елементи</name>
+                <name lang="da">Importerede elementer</name>
+                <name lang="sl">Uvoženi elementi</name>
+                <name lang="ja">インバートされた要素</name>
+                <name lang="pl">Elementy importowane</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="en">Imported elements</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="tr">İthal öğeler</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+            </names>
+            <category name="10_electric">
+                <names>
+                    <name lang="it">Elettrica</name>
+                    <name lang="ja">電気</name>
+                    <name lang="es">Eléctrica</name>
+                    <name lang="el">Ηλεκτρικά</name>
+                    <name lang="pl">Elektrotechnika</name>
+                    <name lang="da">Elektrisk</name>
+                    <name lang="en">Electric</name>
+                    <name lang="fr">Electrique</name>
+                    <name lang="cs">Elektrotechnika</name>
+                    <name lang="de">Elektrik</name>
+                    <name lang="ru">Электротехника</name>
+                    <name lang="nl">Elektrotechniek</name>
+                </names>
+                <category name="11_singlepole">
+                    <names>
+                        <name lang="it">Unifilare</name>
+                        <name lang="ja">単線</name>
+                        <name lang="es">Polo simple</name>
+                        <name lang="el">Μονογραμμικό</name>
+                        <name lang="pl">Schematy jednoliniowe</name>
+                        <name lang="da">Enkel leder</name>
+                        <name lang="fr">Unifilaire</name>
+                        <name lang="en">Single pole</name>
+                        <name lang="cs">Jednopólové</name>
+                        <name lang="de">Einpolig</name>
+                        <name lang="nl">Enkel pool</name>
+                        <name lang="ru">Однополюсные</name>
+                    </names>
+                    <category name="200_fuses_protective_gears">
+                        <names>
+                            <name lang="it">Fusibili e protezioni</name>
+                            <name lang="ja">ヒューズと保護装置</name>
+                            <name lang="el">Ασφάλειες και διατάξεις προστασίας</name>
+                            <name lang="pl">Łączniki i zabezpieczenia</name>
+                            <name lang="en">Fuses and protective gears</name>
+                            <name lang="fr">Fusibles et protections</name>
+                            <name lang="cs">Pojistky a ochrany</name>
+                            <name lang="de">Sicherungen und Schutzeinrichtungen</name>
+                            <name lang="nl">Zekeringen en beveiligingen</name>
+                            <name lang="ru">Предохранители и элементы защиты</name>
+                        </names>
+                        <category name="20_disconnecting_switches">
+                            <names>
+                                <name lang="ar">عازلات</name>
+                                <name lang="it">Sezionatori</name>
+                                <name lang="es">Seccionadores</name>
+                                <name lang="el">Αποζεύκτες</name>
+                                <name lang="pt">Seccionadores</name>
+                                <name lang="pl">Odłączniki</name>
+                                <name lang="en">Disconnecting switches</name>
+                                <name lang="fr">Sectionneurs</name>
+                                <name lang="cs">Odpojovače</name>
+                                <name lang="de">Lasttrenner</name>
+                                <name lang="ru">Разъеденители</name>
+                                <name lang="nl">Lastschakelaars</name>
+                            </names>
+                            <element name="sectionneur1-2.elmt">
+                                <definition ic="true" width="20" version="0.4" link_type="master" hotspot_y="25" hotspot_x="11" type="element" height="50">
+                                    <uuid uuid="{48DB7CF5-6218-4ED7-B473-C77439F865A8}"/>
+                                    <names>
+                                        <name lang="ar">مفتاح عزل</name>
+                                        <name lang="de">Trennschalter 1P</name>
+                                        <name lang="ru">Выключатель-разъеденитель</name>
+                                        <name lang="pt">Seccionador </name>
+                                        <name lang="el">Διακόπτης φορτίου</name>
+                                        <name lang="en">Disconnecting switch</name>
+                                        <name lang="it">Sezionatore 1P</name>
+                                        <name lang="fr">Sectionneur</name>
+                                        <name lang="pl">Rozłącznik</name>
+                                        <name lang="es">Seccionador </name>
+                                        <name lang="nl">Scheidingsschakelaar</name>
+                                        <name lang="cs">Odpínač</name>
+                                    </names>
+                                    <kindInformations>
+                                        <kindInformation show="1" name="type">protection</kindInformation>
+                                    </kindInformations>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <circle diameter="4" y="-12" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2"/>
+                                        <polygon x2="0" y3="20" antialias="true" x3="0" closed="false" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y2="10"/>
+                                        <input y="3" tagg="label" size="9" text="_" x="3.75"/>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-12"/>
+                                        <line x2="-2" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="2" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-12" y2="-12"/>
+                                        <terminal y="-21" x="0" orientation="n"/>
+                                        <terminal y="21" x="0" orientation="s"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                </category>
+                <category name="91_en_60617">
+                    <names>
+                        <name lang="ja">電気用図記号 (JIS C 0617 / IEC 60617)</name>
+                        <name lang="es">IEC 60617</name>
+                        <name lang="da">DS/IEC 60617</name>
+                        <name lang="fr">EN 60617</name>
+                        <name lang="en">IEC 60617</name>
+                        <name lang="cs">EN 60617</name>
+                        <name lang="de">DIN EN 60617</name>
+                    </names>
+                    <category name="en_60617_03">
+                        <names>
+                            <name lang="ja">03- 導体及び接続部品</name>
+                            <name lang="es">03- Conductores y dispositivos de enlace</name>
+                            <name lang="da">03- Ledere og forbindelsesanordninger</name>
+                            <name lang="en">03- Conductors and connecting devices</name>
+                            <name lang="fr">03- Conducteurs et dispositifs de liaison</name>
+                            <name lang="cs">03- Vodiče a spojovací součásti</name>
+                            <name lang="de">03- Leiter und Verbinder</name>
+                        </names>
+                        <category name="en_60617_03_02">
+                            <names>
+                                <name lang="ja">02- 接続点，端子及び分岐</name>
+                                <name lang="fr">02- Dérivations, bornes et branchements</name>
+                                <name lang="en">02- Branchings, connections, junctions</name>
+                                <name lang="cs">02- Spojení, svorky a odbočení</name>
+                                <name lang="de">02- Anschlüsse und Leiterverbindungen</name>
+                            </names>
+                            <element name="en_60617_03_02_04.elmt">
+                                <definition version="0.70" width="50" link_type="simple" hotspot_y="24" hotspot_x="24" type="element" height="30">
+                                    <uuid uuid="{237966ae-aa08-4c0b-b0e3-515b9f0f5adb}"/>
+                                    <names>
+                                        <name lang="fr">Liaison en T</name>
+                                        <name lang="de">T-Verbindung, Abzweigung</name>
+                                        <name lang="cs">T-spojení</name>
+                                        <name lang="en">T-connection</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <input y="15" rotate="true" tagg="label" text="_" size="9" x="5"/>
+                                        <line x2="20" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="-20" y2="-20" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" y2="0" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                        <terminal y="-20" x="20" orientation="e"/>
+                                        <terminal y="-20" x="-20" orientation="w"/>
+                                        <terminal y="0" x="0" orientation="s"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="en_60617_08">
+                        <names>
+                            <name lang="ja">08- 計器，ランプ及び信号装置</name>
+                            <name lang="es">08- Dispositivos de medición, lámparas y dispositivos de señalización</name>
+                            <name lang="da">08- Måleinstrumenter, lamper og signaludstyr</name>
+                            <name lang="en">08- Measuring instruments, lamps and signalling devices</name>
+                            <name lang="fr">08- Appareils de mesure, lampes et dispositifs de siglalisation</name>
+                            <name lang="cs">08- Měřicí přístroje, zdroje světla a signalizační zařízení</name>
+                            <name lang="de">08- Meß-, Melde- und Signaleinrichtungen</name>
+                        </names>
+                        <category name="en_60617_08_10">
+                            <names>
+                                <name lang="ja">10- ランプ及び信号報知装置</name>
+                                <name lang="fr">10- Lampes et dispositifs de signalisation</name>
+                                <name lang="en">10- Lamps and signalling devices</name>
+                                <name lang="cs">10- Zdroje světla a signalizační zařízení</name>
+                                <name lang="de">10- Leuchtmelder und Signaleinrichtungen</name>
+                            </names>
+                            <element name="en_60617_08_10_01.elmt">
+                                <definition width="30" version="0.70" link_type="simple" hotspot_y="25" hotspot_x="15" type="element" height="30">
+                                    <uuid uuid="{1ff0241f-1ced-43bd-8cc1-d3a91501e4cb}"/>
+                                    <names>
+                                        <name lang="en">Lamp, general symbol</name>
+                                        <name lang="fr">Lampe de signalisation, symbole général</name>
+                                        <name lang="de">Lampe. Leuchtmelder, allgemein</name>
+                                        <name lang="cs">Zdroj světla
+    Signální zdroj světla</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <input y="25" rotate="true" tagg="label" text="_" size="9" x="5"/>
+                                        <circle diameter="20" y="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-10"/>
+                                        <line x2="7" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="-7" y1="-3" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-17"/>
+                                        <line x2="7" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="-7" y1="-17" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-3"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="en_60617_11">
+                        <names>
+                            <name lang="ja">11- 建築設備及び地図上の設備を示す設置平面図及び線図</name>
+                            <name lang="es">11- Dibujos y planos arquitectónicos y topográficos</name>
+                            <name lang="da">11- Bygningsmæssige og topografiske installationstegninger og -skemaer</name>
+                            <name lang="en">11- Architectural and topographical installation plans and diagrams</name>
+                            <name lang="fr">11- Schémas et plans d'installation, architecturaux et topographiques</name>
+                            <name lang="cs">11- Stavební a topografické instalační výkresy a schémata</name>
+                            <name lang="de">11- Gebäudebezogene und topographische Installationspläne und Schaltpläne</name>
+                        </names>
+                        <category name="en_60617_11_15">
+                            <names>
+                                <name lang="ja">15- 照明用コンセント及び器具</name>
+                                <name lang="fr">15- Installations d'éclairage, lampes</name>
+                                <name lang="en">15- Lighting, lamps</name>
+                                <name lang="cs">15- Světelné vývody a jejich zařízení</name>
+                                <name lang="de">15- Auslässe und Installationen für Leuchten</name>
+                            </names>
+                            <element name="en_60617_11_15_03.elmt">
+                                <definition version="0.70" link_type="simple" width="30" hotspot_y="25" hotspot_x="25" type="element" height="30">
+                                    <uuid uuid="{ccae5e9d-5c0e-4b31-a613-82e609cca749}"/>
+                                    <names>
+                                        <name lang="de">Leuchte, allgemein </name>
+                                        <name lang="fr">Lampe, symbole général</name>
+                                        <name lang="cs">Světelný zdroj</name>
+                                        <name lang="en">Lamp, general symbol</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <input y="25" rotate="true" tagg="label" size="9" text="_" x="5"/>
+                                        <circle diameter="20" y="-20" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-20"/>
+                                        <line x2="-4" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="-16" y1="-17" y2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                        <line x2="-17" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="-4" y1="-17" y2="-3" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="en_60617_07">
+                        <names>
+                            <name lang="ja">07- 開閉装置，制御装置及び保護装置</name>
+                            <name lang="es">07- Aparatos y dispositivos para control y protección</name>
+                            <name lang="da">07- Afbrydere, kontakter og beskyttende udstyr</name>
+                            <name lang="en">07- Switchgear, controlgear and protective devices</name>
+                            <name lang="fr">07- Appareillage et dispositifs de commande et de protection</name>
+                            <name lang="cs">07- Spínací, řídicí a jisticí zařízení</name>
+                            <name lang="de">07- Schalt- und Schutzeinrichtungen</name>
+                        </names>
+                        <category name="en_60617_07_02">
+                            <names>
+                                <name lang="ja">02- 2位置又は3位置接点</name>
+                                <name lang="fr">02- Contacts à deux ou trois positions</name>
+                                <name lang="en">02- Contacts with two or three positions</name>
+                                <name lang="cs">02- Kontakty se dvěma nebo třemi polohami</name>
+                                <name lang="de">02- Kontakte mit zwei oder drei Schaltstellungen</name>
+                            </names>
+                            <element name="en_60617_07_02_02.elmt">
+                                <definition link_type="simple" width="20" version="0.70" hotspot_y="44" hotspot_x="13" type="element" height="70">
+                                    <uuid uuid="{7aca8cd4-b1b3-4794-9021-2e7532514e1d}"/>
+                                    <names>
+                                        <name lang="fr">Contact à fermeture (contact de travail)</name>
+                                        <name lang="de">Schließer</name>
+                                        <name lang="cs">Zapínací kontakt</name>
+                                        <name lang="en">Make contact, general symbol; Switch, general symbol</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <circle diameter="4" y="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2"/>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" y1="-20" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-40"/>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" y1="2" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20"/>
+                                        <line x2="-8" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="-1" y1="-2" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-23"/>
+                                        <input y="25" rotate="true" tagg="label" text="_" size="9" x="5"/>
+                                        <terminal y="-40" orientation="n" x="0"/>
+                                        <terminal y="20" orientation="s" x="0"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                </category>
+                <category name="10_allpole">
+                    <names>
+                        <name lang="it">Multifilare</name>
+                        <name lang="ja">複線</name>
+                        <name lang="es">Multifilar</name>
+                        <name lang="el">Πολυγραμμικό</name>
+                        <name lang="hu">Többvonalas szimbólumok</name>
+                        <name lang="pl">Schematy wieloliniowe</name>
+                        <name lang="da">Flere ledere</name>
+                        <name lang="fr">Multifilaire</name>
+                        <name lang="en">All-pole</name>
+                        <name lang="cs">Vícežilový</name>
+                        <name lang="de">Allpolig</name>
+                        <name lang="nl">Veel polig</name>
+                        <name lang="ru">Многополюсные</name>
+                    </names>
+                    <category name="380_signaling_operating">
+                        <names>
+                            <name lang="it">Segnalazione e comando</name>
+                            <name lang="ja">信号と操作</name>
+                            <name lang="es">Señalización y comando</name>
+                            <name lang="el">Σήμανση και χειρισμός</name>
+                            <name lang="pl">Obwody sterownicze</name>
+                            <name lang="en">Signaling and operating</name>
+                            <name lang="fr">Signalétique et commande</name>
+                            <name lang="cs">Značení a příkazy</name>
+                            <name lang="de">Melde- und Bedieneinrichtungen</name>
+                            <name lang="ru">Сигнализация и управление</name>
+                            <name lang="nl">Signalering en bediening</name>
+                        </names>
+                        <category name="21_selector_switches">
+                            <names>
+                                <name lang="it">Selettori</name>
+                                <name lang="es">Interruptor selector</name>
+                                <name lang="el">Διακόπτες επιλογής</name>
+                                <name lang="pl">Przełączniki</name>
+                                <name lang="en">Selector switches</name>
+                                <name lang="fr">Commutateurs sélecteurs</name>
+                                <name lang="cs">Přepínače, voliče</name>
+                                <name lang="de">Wahlschalter</name>
+                                <name lang="ru">Переключатели</name>
+                                <name lang="nl">schakelaar keuze</name>
+                            </names>
+                            <element name="010_switch_1pos.elmt">
+                                <definition link_type="simple" width="20" version="0.80" hotspot_y="29" hotspot_x="11" type="element" height="60">
+                                    <uuid uuid="{d3b03c88-7d17-4c10-adb8-94fe40b2f53b}"/>
+                                    <names>
+                                        <name lang="pt">Interruptor</name>
+                                        <name lang="nl">Contact (NO)</name>
+                                        <name lang="es">Interruptor</name>
+                                        <name lang="ar">مفتاح</name>
+                                        <name lang="en">Switch</name>
+                                        <name lang="it">Interruttore</name>
+                                        <name lang="ru">Переключатель</name>
+                                        <name lang="pl">Łącznik</name>
+                                        <name lang="de">Ein-/Ausschalter</name>
+                                        <name lang="fr">Interrupteur</name>
+                                        <name lang="cs">Spínač</name>
+                                        <name lang="el">Διακόπτης</name>
+                                    </names>
+                                    <elementInformations/>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <circle diameter="3.5" y="8.25" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-1.75"/>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" y1="-20" y2="-12.5" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                        <dynamic_text text_width="-1" Halignment="AlignLeft" uuid="{06a2b3b1-c587-454b-89e3-4d8b41413e44}" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-8.5" Valignment="AlignTop" z="3" rotation="0" text_from="ElementInfo" x="2.75" frame="false">
+                                            <text/>
+                                            <info_name>label</info_name>
+                                        </dynamic_text>
+                                        <circle diameter="3.5" y="-11.75" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-1.75"/>
+                                        <line x2="-0.7" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="-5" y1="-10" y2="8" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" y1="12" y2="17" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                        <terminal uuid="{eabdd4d0-f563-43b0-b1e3-4f7f816d79b1}" y="21" name="" x="0" orientation="s"/>
+                                        <terminal uuid="{6f505308-b294-48e4-821c-da003e1cff89}" y="-21" name="" x="0" orientation="n"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="130_terminals_terminal_strips">
+                        <names>
+                            <name lang="ar">طرفيات توصيل</name>
+                            <name lang="it">Terminali</name>
+                            <name lang="ja">端子と端子台</name>
+                            <name lang="es">Terminales</name>
+                            <name lang="el">Ακροδέκτες και σειρές ακροδεκτών</name>
+                            <name lang="hu">Sorkapcsok</name>
+                            <name lang="pt">Terminais</name>
+                            <name lang="pl">Złącza i zaciski</name>
+                            <name lang="da">Klemmer og klemmerækker</name>
+                            <name lang="en">Terminals and terminal strips</name>
+                            <name lang="fr">Bornes et borniers</name>
+                            <name lang="cs">Svorky</name>
+                            <name lang="de">Klemmen und Klemmleisten</name>
+                            <name lang="ru">Клеммы и клеммники</name>
+                            <name lang="nl">Klemmenlijst</name>
+                        </names>
+                        <element name="borne_finale.elmt">
+                            <definition ic="true" width="10" version="0.4" link_type="terminal" hotspot_y="15" hotspot_x="4" type="element" height="20">
+                                <uuid uuid="{A4B7D0BD-2695-47D9-BF64-2DAD82C51772}"/>
+                                <names>
+                                    <name lang="ar">طرف نهائي</name>
+                                    <name lang="de">Endklemme</name>
+                                    <name lang="ru">Клеммник</name>
+                                    <name lang="pt">Terminal de fim</name>
+                                    <name lang="en">Terminal block</name>
+                                    <name lang="it">Terminale di fine</name>
+                                    <name lang="fr">Borne finale</name>
+                                    <name lang="pl">Zacisk</name>
+                                    <name lang="es">Punto de unión</name>
+                                    <name lang="nl">Klem eind</name>
+                                    <name lang="cs">Koncová svorka</name>
+                                    <name lang="hu">Sorkapocs</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <input y="8" tagg="none" size="7" text="_" x="5"/>
+                                    <input y="-5" tagg="label" size="10" text="_" x="5"/>
+                                    <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-10" y2="-3"/>
+                                    <circle diameter="5" y="-2.5" antialias="true" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-2.5"/>
+                                    <terminal y="-10" x="0" orientation="n"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                    <category name="114_connections">
+                        <names>
+                            <name lang="it">Collegamenti</name>
+                            <name lang="ja">接続</name>
+                            <name lang="es">Conexiones</name>
+                            <name lang="el">Ενώσεις</name>
+                            <name lang="hu">Csatlakozások</name>
+                            <name lang="pl">Połączenia</name>
+                            <name lang="da">Forbindelser</name>
+                            <name lang="en">Connections</name>
+                            <name lang="fr">Connections</name>
+                            <name lang="cs">Spojení</name>
+                            <name lang="de">Verbindungen</name>
+                            <name lang="ru">Соединения</name>
+                            <name lang="nl">Verbindingen</name>
+                        </names>
+                        <element name="bod.elmt">
+                            <definition width="20" version="0.90" link_type="simple" hotspot_y="9" hotspot_x="9" type="element" height="20">
+                                <uuid uuid="{1eefef79-1c23-413b-873a-3d84f4aa5c25}"/>
+                                <names>
+                                    <name lang="fr">connexion</name>
+                                    <name lang="en">connection</name>
+                                    <name lang="cs">Bod</name>
+                                    <name lang="de">Verbindung</name>
+                                    <name lang="hu">Keresztezés pont alakzatban</name>
+                                </names>
+                                <elementInformations/>
+                                <informations/>
+                                <description>
+                                    <circle diameter="4" y="-2" antialias="false" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-2"/>
+                                    <dynamic_text text_width="-1" uuid="{2aef950d-c62d-4d3c-939b-3e81653d5244}" Halignment="AlignLeft" y="-14.5" font="Sans Serif,9,-1,5,50,0,0,0,0,0" Valignment="AlignTop" keep_visual_rotation="false" z="2" text_from="ElementInfo" rotation="0" x="-11" frame="false">
+                                        <text/>
+                                        <info_name>label</info_name>
+                                    </dynamic_text>
+                                    <terminal uuid="{9cc2fc56-976f-49ac-a0f8-63eb85f716c2}" y="0" type="Generic" name="" orientation="e" x="2"/>
+                                    <terminal uuid="{3c4b4f5e-98a2-4daa-9a47-40b8e018166e}" y="0" type="Generic" name="" orientation="w" x="-2"/>
+                                    <terminal uuid="{8d99aa04-def0-4573-a0e8-41229ed2f1dc}" y="2" type="Generic" name="" orientation="s" x="0"/>
+                                    <terminal uuid="{f2e49ff6-ee59-492e-a6ad-82708479afd6}" y="-2" type="Generic" name="" orientation="n" x="0"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                    <category name="310_relays_contactors_contacts">
+                        <names>
+                            <name lang="it">Relè, contattori e contatti</name>
+                            <name lang="ja">継電器、接触器、接点</name>
+                            <name lang="es">Relevadores, contactores y contactos</name>
+                            <name lang="el">Ηλεκτρονόμοι και επαφές</name>
+                            <name lang="hu">Relék, kontaktorok és érintkezők</name>
+                            <name lang="pl">Przekaźniki i styczniki</name>
+                            <name lang="da">Relæer, kontaktorer og kontakter</name>
+                            <name lang="en">Relays, contactors and contacts</name>
+                            <name lang="fr">Relais, contacteurs et contacts</name>
+                            <name lang="cs">Relé, stykače a kontakty</name>
+                            <name lang="de">Relais, Schütze und Kontakte</name>
+                            <name lang="ru">Реле, пускатели и контакты</name>
+                            <name lang="nl">Relais, contactoren en contacten</name>
+                        </names>
+                        <category name="01_coils">
+                            <names>
+                                <name lang="fr">bobine</name>
+                                <name lang="pt">bobina</name>
+                                <name lang="da">spole</name>
+                                <name lang="sl">tuljava</name>
+                                <name lang="hu">tekercs</name>
+                                <name lang="ja">コイル</name>
+                                <name lang="pl">cewka</name>
+                                <name lang="en">coil</name>
+                                <name lang="ro">bobina</name>
+                                <name lang="ca">bobina</name>
+                                <name lang="ar">لفه</name>
+                                <name lang="it">bobina</name>
+                                <name lang="de">Spule</name>
+                                <name lang="ru">катушка</name>
+                                <name lang="nl">spoel</name>
+                                <name lang="cs">cívka</name>
+                                <name lang="sr">калем</name>
+                                <name lang="hr">zavojnica</name>
+                                <name lang="tr">bobin</name>
+                                <name lang="es">bobina</name>
+                                <name lang="mn">ороомог</name>
+                                <name lang="el">σπείρα</name>
+                                <name lang="nb">Spole</name>
+                            </names>
+                            <element name="telerupteur.elmt">
+                                <definition ic="true" width="40" version="0.4" link_type="master" hotspot_y="25" hotspot_x="20" type="element" height="50">
+                                    <uuid uuid="{356D5027-E95D-4757-AF35-A8C3D05384EA}"/>
+                                    <names>
+                                        <name lang="el">Τηλεχειριζόμενος διακόπτης</name>
+                                        <name lang="en">Remote controlled switch</name>
+                                        <name lang="de">Stromstossrelais</name>
+                                        <name lang="it">Teleruttore</name>
+                                        <name lang="fr">Télérupteur</name>
+                                        <name lang="pl">Łącznik zdalnie sterowany</name>
+                                        <name lang="es">Interruptor a control remoto 1P1T</name>
+                                        <name lang="cs">Dálkově ovládaný spínač</name>
+                                        <name lang="hu">Távoli vezérlésű relé</name>
+                                        <name lang="nl">Afstand bestuurbaar schakelaar</name>
+                                    </names>
+                                    <kindInformations>
+                                        <kindInformation show="1" name="type">coil</kindInformation>
+                                    </kindInformations>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <rect y="-8" width="28" antialias="false" style="line-style:normal;line-weight:normal;filling:none;color:black" x="-14" height="16"/>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="-20" y2="-8"/>
+                                        <input y="19.3333" rotate="true" tagg="none" size="4" text="A2" x="2"/>
+                                        <input y="-16.6667" rotate="true" tagg="none" size="4" text="A1" x="2"/>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length1="1.5" length2="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="8" y2="20"/>
+                                        <input y="3.3333" tagg="label" size="9" text="_" x="25"/>
+                                        <polygon x2="0" y5="-4" x4="10" y4="-4" y3="-4" antialias="false" x3="0" x5="10" closed="false" x1="-9" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="4" y2="4"/>
+                                        <terminal y="-21" x="0" orientation="n"/>
+                                        <terminal y="21" x="0" orientation="s"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="395_electronics_semiconductors">
+                        <names>
+                            <name lang="it">Elettronica e semiconduttori</name>
+                            <name lang="ja">電子と半導体</name>
+                            <name lang="es">Electrónica y semiconductores</name>
+                            <name lang="el">Ηλεκτρονικά και ημιαγωγοί</name>
+                            <name lang="pl">Elektronika i półprzewodniki</name>
+                            <name lang="en">Electronics and semiconductors</name>
+                            <name lang="fr">Electronique et semi-conducteurs</name>
+                            <name lang="cs">Elektronika a polovodiče</name>
+                            <name lang="de">Elektronik und Halbleiter</name>
+                            <name lang="ru">Электроника и полупроводники</name>
+                            <name lang="nl">Electronica en halfgeleiders</name>
+                        </names>
+                        <category name="11_diodes">
+                            <names>
+                                <name lang="it">Diodo</name>
+                                <name lang="el">Δίοδοι</name>
+                                <name lang="pl">Diody</name>
+                                <name lang="en">Diode</name>
+                                <name lang="fr">Diode</name>
+                                <name lang="cs">Diody</name>
+                                <name lang="de">Dioden</name>
+                                <name lang="nl">Diodes</name>
+                                <name lang="ru">Диоды</name>
+                            </names>
+                            <element name="diode_led.elmt">
+                                <definition width="20" version="0.90" link_type="simple" hotspot_y="24" hotspot_x="12" type="element" height="50">
+                                    <uuid uuid="{16007ea3-c26b-4d0d-befd-416c2d0a3b9d}"/>
+                                    <names>
+                                        <name lang="de">LED</name>
+                                        <name lang="el">Δίοδος LED</name>
+                                        <name lang="en">LED</name>
+                                        <name lang="it">LED</name>
+                                        <name lang="ar">دايود ضاوي LED</name>
+                                        <name lang="ru">Светодиод</name>
+                                        <name lang="fr">DEL</name>
+                                        <name lang="pt">LED</name>
+                                        <name lang="es">LED</name>
+                                        <name lang="cs">LED</name>
+                                        <name lang="nl">LED</name>
+                                        <name lang="pl">Dioda elektroluminescencyjna (LED)</name>
+                                    </names>
+                                    <elementInformations/>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <polygon x2="-9" y3="0" x3="-7" antialias="true" x1="-7" style="line-style:normal;line-weight:thin;filling:black;color:black" y2="1" y1="2"/>
+                                        <line x2="-5.25" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="1" y1="1"/>
+                                        <polygon x2="-7" y3="-1.5" x3="-7" antialias="true" x1="-9" style="line-style:normal;line-weight:thin;filling:black;color:black" y2="-3.5" y1="-2.5"/>
+                                        <line x2="-5.25" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="-7" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-2.5" y1="-2.5"/>
+                                        <line x2="5" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="5" y1="5"/>
+                                        <polygon x2="5" y3="5" x3="0" antialias="true" x1="-5" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="-5" y1="-5"/>
+                                        <dynamic_text text_width="-1" uuid="{26be4cdd-9ff9-46cf-a9d6-8dc54d511da3}" Halignment="AlignLeft" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-8.5" Valignment="AlignTop" keep_visual_rotation="false" z="7" rotation="0" text_from="ElementInfo" frame="false" x="7.75">
+                                            <text/>
+                                            <info_name>label</info_name>
+                                        </dynamic_text>
+                                        <line x2="0" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="0" style="line-style:normal;line-weight:normal;filling:none;color:black" y2="20" y1="-20"/>
+                                        <terminal uuid="{5601f93a-1778-45a8-9322-55fc3c5c4e6c}" y="-20" type="Generic" name="A" x="0" orientation="n"/>
+                                        <terminal uuid="{d880aca9-66ae-421f-bd1c-ddd0e173919d}" y="20" type="Generic" name="K" x="0" orientation="s"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                </category>
+            </category>
+            <category name="50_pneumatic">
+                <names>
+                    <name lang="fr">Pneumatique</name>
+                    <name lang="pt">pneumática</name>
+                    <name lang="da">Pneumatik</name>
+                    <name lang="sl">pnevmatike</name>
+                    <name lang="hu">pneumatika</name>
+                    <name lang="ja">空気圧</name>
+                    <name lang="pl">Pneumatyka</name>
+                    <name lang="en">Pneumatic</name>
+                    <name lang="ro">pneumatice</name>
+                    <name lang="ca">pneumàtica</name>
+                    <name lang="ar">بضغط الهواء</name>
+                    <name lang="be">Pneumatique</name>
+                    <name lang="it">Pneumatica</name>
+                    <name lang="de">Pneumatik</name>
+                    <name lang="ru">Пневматика</name>
+                    <name lang="nl">Pneumatiek</name>
+                    <name lang="cs">Pneumatika</name>
+                    <name lang="sr">пнеуматика</name>
+                    <name lang="hr">pneumatika</name>
+                    <name lang="tr">pnömatik</name>
+                    <name lang="es">Neumática</name>
+                    <name lang="mn">пневматик</name>
+                    <name lang="el">Πνευματικά</name>
+                    <name lang="nb">pneumatik</name>
+                </names>
+                <category name="510_compressed_air">
+                    <names>
+                        <name lang="fr">air comprimé</name>
+                        <name lang="pt">ar comprimido</name>
+                        <name lang="da">komprimeret luft</name>
+                        <name lang="sl">stisnjen zrak</name>
+                        <name lang="hu">sűrített levegő</name>
+                        <name lang="ja">圧縮空気</name>
+                        <name lang="pl">skompresowane powietrze</name>
+                        <name lang="en">compressed air</name>
+                        <name lang="ro">aer comprimat</name>
+                        <name lang="ca">aire comprimit</name>
+                        <name lang="ar">هواء مضغوط</name>
+                        <name lang="it">aria compressa</name>
+                        <name lang="de">Druckluft</name>
+                        <name lang="ru">сжатый воздух</name>
+                        <name lang="nl">perslucht</name>
+                        <name lang="cs">stlačený vzduch</name>
+                        <name lang="sr">компресован ваздух</name>
+                        <name lang="hr">potisnut zrak</name>
+                        <name lang="tr">sıkıştırılmış hava</name>
+                        <name lang="es">aire comprimido</name>
+                        <name lang="mn">шахсан агаар</name>
+                        <name lang="el">συμπιεσμένος αέρας</name>
+                        <name lang="nb">trykkluft</name>
+                    </names>
+                    <category name="516_pipes_connections">
+                        <names>
+                            <name lang="fr">lignes et connexions</name>
+                            <name lang="pt">linhas e conexões</name>
+                            <name lang="da">linjer og forbindelser</name>
+                            <name lang="sl">linije in povezave</name>
+                            <name lang="hu">vonalak és kapcsolatok</name>
+                            <name lang="ja">回線と接続</name>
+                            <name lang="pl">linie i połączenia</name>
+                            <name lang="en">lines and connections</name>
+                            <name lang="ro">linii și conexiuni</name>
+                            <name lang="ca">línies i connexions</name>
+                            <name lang="ar">الخطوط والوصلات</name>
+                            <name lang="it">linee e collegamenti</name>
+                            <name lang="de">Leitungen und Anschlüsse</name>
+                            <name lang="ru">линии и соединения</name>
+                            <name lang="nl">lijnen en verbindingen</name>
+                            <name lang="cs">linky a spoje</name>
+                            <name lang="sr">линије и везе</name>
+                            <name lang="hr">vodovi i veze</name>
+                            <name lang="tr">hatlar ve bağlantılar</name>
+                            <name lang="es">lineas y conexiones</name>
+                            <name lang="mn">шугам ба холболтууд</name>
+                            <name lang="el">γραμμές και συνδέσεις</name>
+                            <name lang="nb">linjer og forbindelser</name>
+                        </names>
+                        <element name="connection_1.elmt">
+                            <definition version="0.5" width="30" link_type="simple" hotspot_y="4" hotspot_x="14" type="element" height="10">
+                                <uuid uuid="{87906d83-df7a-457e-862b-17ea64782c49}"/>
+                                <names>
+                                    <name lang="ar">اتصال سلكي</name>
+                                    <name lang="ca">connexió de cable</name>
+                                    <name lang="cs">kabelové připojení</name>
+                                    <name lang="da">kabelforbindelse</name>
+                                    <name lang="de">Kabelanschluss</name>
+                                    <name lang="el">καλωδιακή σύνδεση</name>
+                                    <name lang="en">cable connection</name>
+                                    <name lang="es">conexión de cable</name>
+                                    <name lang="fr">câble de connexion</name>
+                                    <name lang="hr">kabelska veza</name>
+                                    <name lang="hu">kábelcsatlakozás</name>
+                                    <name lang="it">collegamento via cavo</name>
+                                    <name lang="ja">ケーブル接続</name>
+                                    <name lang="mn">кабель холболт</name>
+                                    <name lang="nb">kabeltilkobling</name>
+                                    <name lang="nl">kabelverbinding</name>
+                                    <name lang="pl">połączenie przewodowe</name>
+                                    <name lang="pt">conexão à cabo</name>
+                                    <name lang="pt_br">conexão à cabo</name>
+                                    <name lang="ro">conexiune prin cablu</name>
+                                    <name lang="ru">кабельное соединение</name>
+                                    <name lang="sl">kabelska povezava</name>
+                                    <name lang="sr">кабловску везу</name>
+                                    <name lang="tr">kablo bağlantısı</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <circle diameter="2.3" y="-1.15" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-1.15"/>
+                                    <input y="-11.5" rotate="true" tagg="label" text="_" size="7" x="-14"/>
+                                    <line x2="10" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="-10" y1="0" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                    <terminal y="0" x="-10" orientation="w"/>
+                                    <terminal y="0" x="10" orientation="e"/>
+                                </description>
+                            </definition>
+                        </element>
+                        <element name="connection_2.elmt">
+                            <definition version="0.5" width="20" link_type="simple" hotspot_y="14" hotspot_x="14" type="element" height="20">
+                                <uuid uuid="{1c77fc1c-a72e-4db4-b530-13d39624ce61}"/>
+                                <names>
+                                    <name lang="ar">اتصال سلكي</name>
+                                    <name lang="ca">connexió de cable</name>
+                                    <name lang="cs">kabelové připojení</name>
+                                    <name lang="da">kabelforbindelse</name>
+                                    <name lang="de">Kabelanschluss</name>
+                                    <name lang="el">καλωδιακή σύνδεση</name>
+                                    <name lang="en">cable connection</name>
+                                    <name lang="es">conexión de cable</name>
+                                    <name lang="fr">câble de connexion</name>
+                                    <name lang="hr">kabelska veza</name>
+                                    <name lang="hu">kábelcsatlakozás</name>
+                                    <name lang="it">collegamento via cavo</name>
+                                    <name lang="ja">ケーブル接続</name>
+                                    <name lang="mn">кабель холболт</name>
+                                    <name lang="nb">kabeltilkobling</name>
+                                    <name lang="nl">kabelverbinding</name>
+                                    <name lang="pl">połączenie przewodowe</name>
+                                    <name lang="pt">conexão à cabo</name>
+                                    <name lang="pt_br">conexão à cabo</name>
+                                    <name lang="ro">conexiune prin cablu</name>
+                                    <name lang="ru">кабельное соединение</name>
+                                    <name lang="sl">kabelska povezava</name>
+                                    <name lang="sr">кабловску везу</name>
+                                    <name lang="tr">kablo bağlantısı</name>
+                                </names>
+                                <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                <description>
+                                    <input y="-8.45" rotate="true" tagg="label" text="_" size="7" x="2"/>
+                                    <line x2="0" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="-10" y1="0" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                    <line x2="0" end1="none" end2="none" antialias="false" length2="1.5" length1="1.5" x1="0" y1="-10" y2="0" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+                                    <circle diameter="2.3" y="-1.15" antialias="true" style="line-style:normal;line-weight:normal;filling:black;color:black" x="-1.15"/>
+                                    <terminal y="0" x="-10" orientation="w"/>
+                                    <terminal y="-10" x="0" orientation="n"/>
+                                </description>
+                            </definition>
+                        </element>
+                    </category>
+                </category>
+            </category>
+        </category>
+    </collection>
+</project>
